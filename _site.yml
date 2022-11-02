@@ -10,5 +10,9 @@ navbar:
     - icon: fa-github fa-lg
       href: http://github.com/YIFEIZHAOCUIMC
 output:
+<<<<<<< HEAD
   html_document:
     theme: cerulean
+=======
+  html_document
+>>>>>>> aa361522e4afa5dcbb57bc845f13871b6bd57f68
