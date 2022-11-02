@@ -16,3 +16,35 @@ output:
 [Email](yz4433@cumc.columbia.edu)
 [LinkedIn](https://www.linkedin.com/in/yifei-zhao1914/)
 
+# Resume
+## Professional Experience
+Machine Learning Engineer | ENN Group | Langfang, Hebei, China Sep 2021 – Aug 2022
+
+1. Utilized neural networks in Python to solve basic computer vision problems, including GoogLeNet for image classification (compared with our labelling tool and tested its efficiency for classifying different types of workers over one million images), FCN for semantic segmentation (a trial for judging whether workers were legally in compliance with the work) for one of the largest energy companies in China.
+
+2. Realized the implementation of general target detection algorithms for large datasets based on YOLO-series algorithms, including action detection, work clothes detection, fence detection, etc.
+
+3. Optimized BI product design, conducted competitive analysis, and tested product vulnerability. Built general evaluation modules and completed evaluation functions of classification and regression models. Explored the issues of algorithm platform in development and optimized subsequent versions.
+
+Analyst Assistant | Alibaba | Xi’an, Shaanxi, China Jul 2020 – Sep 2020
+
+1. Divided 100 groups based on features of 10,000 customers, created heatmaps to visualize the group information, and gained “magic numbers” of the business based on customer data.
+
+2. Established the Prophet model to make large-scale and high-quality predictions based on one million commercial data from five cities, compared the forecast results in Python, and proved the accuracy.
+
+3. Applied Pareto/NBD and BG/NBD models to determine the characteristics and applications of customer lifetime value (CLV) models based on 100,000 data.
+
+## Academic Experience
+Group Project Leader | University of Edinburgh | Edinburgh, SC Nov 2020 – Jun 2021
+
+1. Discussed limitations of traditional Principal component analysis (PCA) for high dimensional data.
+
+2. Compared three main advanced algorithms (Stochastic PCA, Sparse PCA, and Robust PCA) based on applications in high dimensional data cases, together with theoretical and numerical analysis.
+
+Research Assistant | UC Berkeley, Berkeley | Berkeley, CA Sep 2020 – Oct 2020
+
+1. Conducted sentiment analysis in R, analyzed clustered data in Python and Embedding Projector of six Hemingway’s books and used AWS to analyze images for the summary of Hemingway’s life.
+
+2. Mastered the applications of data visualization, machine learning, optimization, data storytelling and identification of business value. Completed a business report about YouTube Trending Videos analysis. 
+
+3. Further study published by 2022 3rd International Conference on Big Data, Artificial Intelligence and Internet of Things Engineering (ICBAIE 2022) and will be submitted to EI index database.
