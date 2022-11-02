@@ -8,11 +8,8 @@ navbar:
     - icon: fa-envelope fa-lg
       href: mailto:<yz4433@cumc.columbia.com>
     - icon: fa-github fa-lg
-      href: http://github.com/YIFEIZHAOCUIMC
+      href: http://github.com/YIFEIZHAOCUIMC/p8105_hw4_yz4433
+      
 output:
-<<<<<<< HEAD
   html_document:
     theme: cerulean
-=======
-  html_document
->>>>>>> aa361522e4afa5dcbb57bc845f13871b6bd57f68
