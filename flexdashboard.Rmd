@@ -1,0 +1,25 @@
+---
+title: "Yifei Zhao's Flexdashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+library(dplyr)
+library(stringr)
+```
+
+```{r include = FALSE}
+data("rest_inspec")
+set.seed(12345)
+data =  sample_n(rest_inspec, 1000) %>% 
+  janitor::clean_names() %>% 
+  mutate(cuisine_description = str_sub(cuisine_description, start = 1, end = 3)) %>% 
+  drop_na(score)
+```
+
