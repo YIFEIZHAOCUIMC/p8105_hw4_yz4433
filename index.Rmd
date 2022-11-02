@@ -13,7 +13,9 @@ output:
 
 # Links
 [Github](https://github.com/YIFEIZHAOCUIMC)
+
 [Email](yz4433@cumc.columbia.edu)
+
 [LinkedIn](https://www.linkedin.com/in/yifei-zhao1914/)
 
 # Resume
@@ -69,6 +71,8 @@ data =  sample_n(rest_inspec, 1000) %>%
   drop_na(score)
 ```
 
-## boxplot
+## Boxplot
 ```{r}
 plot_ly(data, y = ~score, color = ~boro, type = 'box')
+```
+

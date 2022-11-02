@@ -23,3 +23,7 @@ data =  sample_n(rest_inspec, 1000) %>%
   drop_na(score)
 ```
 
+## Boxplot
+```{r}
+plot_ly(data, y = ~score, color = ~boro, type = 'box')
+```
