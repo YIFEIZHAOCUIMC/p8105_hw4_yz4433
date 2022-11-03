@@ -3,7 +3,6 @@ title: "Yifei Zhao's Flexdashboard"
 output: 
   flexdashboard::flex_dashboard:
     orientation: columns
-    vertical_layout: fill
 ---
 
 ```{r setup, include=FALSE}
@@ -20,27 +19,21 @@ data("rest_inspec")
 set.seed(12345)
 data =  sample_n(rest_inspec, 1000) %>% 
   janitor::clean_names() %>% 
-  mutate(cuisine_description = str_sub(cuisine_description, start = 1, end = 3)) %>% 
+  mutate(cuisine_description = str_sub(cuisine_description, start = 1, end = 10)) %>% 
   drop_na(score)
 ```
 
-Column {data-width=400}
------------------------------------------------------------------------
-
-## Histogram
+### Histogram
 ```{r echo = FALSE}
 plot_ly(data, x = ~score, color = ~critical_flag, type = 'histogram')
 ```
 
-Column {data-width=200}
------------------------------------------------------------------------
-
-## Boxplot
+### Boxplot
 ```{r echo = FALSE}
 plot_ly(data, y = ~score, color = ~boro, type = 'box')
 ```
 
-## Pieplot
+### Pieplot
 ```{r echo = FALSE}
 plot_ly(data, labels = ~cuisine_description, type = 'pie')
 ```
