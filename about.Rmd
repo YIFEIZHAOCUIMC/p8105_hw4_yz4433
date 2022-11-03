@@ -2,8 +2,8 @@
 title: "About"
 ---
 
-### About this site
+## Yifei's website intro
 
-Sometimes you need to say a bit about the site -- how it was made, where it's hosted, where the source code can be found. 
+This website is for HW4_p8105 data science course at Columbia University. It shows gif images, navigation of personal links, the resume, and a flexdashboard for rest_inspec dataset. 
 
-If this is for a project or analysis, I recommend giving some details about the R package versions that you used to create the content.
+All the source code can be found in the github repository.

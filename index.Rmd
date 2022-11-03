@@ -8,15 +8,9 @@ output:
 ---
 
 # Data Science 
+A great image to show the dynamic data.
 
 ![](https://miro.medium.com/max/1400/1*U3WRRwLx3zeDkHmIVGLJdw.gif)
-
-# Links
-[Github](https://github.com/YIFEIZHAOCUIMC)
-
-[Email](yz4433@cumc.columbia.edu)
-
-[LinkedIn](https://www.linkedin.com/in/yifei-zhao1914/)
 
 # Resume
 ## Professional Experience

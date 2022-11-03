@@ -7,6 +7,7 @@ output:
 ---
 
 ```{r setup, include=FALSE}
+library(flexdashboard)
 library(tidyverse)
 library(p8105.datasets)
 library(plotly)
@@ -23,14 +24,20 @@ data =  sample_n(rest_inspec, 1000) %>%
   drop_na(score)
 ```
 
-## Boxplot
-```{r echo = FALSE}
-plot_ly(data, y = ~score, color = ~boro, type = 'box')
-```
+Column {data-width=400}
+-----------------------------------------------------------------------
 
 ## Histogram
 ```{r echo = FALSE}
 plot_ly(data, x = ~score, color = ~critical_flag, type = 'histogram')
+```
+
+Column {data-width=200}
+-----------------------------------------------------------------------
+
+## Boxplot
+```{r echo = FALSE}
+plot_ly(data, y = ~score, color = ~boro, type = 'box')
 ```
 
 ## Pieplot
