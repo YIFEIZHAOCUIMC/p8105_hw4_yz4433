@@ -51,33 +51,3 @@ Research Assistant | UC Berkeley, Berkeley | Berkeley, CA Sep 2020 – Oct 2020
 
 3. Further study published by 2022 3rd International Conference on Big Data, Artificial Intelligence and Internet of Things Engineering (ICBAIE 2022) and will be submitted to EI index database.
 
-# Dashboard
-<!-- [Dashboard_rest_inspec](https://github.com/YIFEIZHAOCUIMC) -->
-
-```{r setup, include=FALSE}
-library(tidyverse)
-library(p8105.datasets)
-library(plotly)
-library(dplyr)
-library(stringr)
-```
-
-```{r include = FALSE}
-data("rest_inspec")
-set.seed(12345)
-data =  sample_n(rest_inspec, 1000) %>% 
-  janitor::clean_names() %>% 
-  mutate(cuisine_description = str_sub(cuisine_description, start = 1, end = 3)) %>% 
-  drop_na(score)
-```
-
-## Boxplot
-```{r echo = FALSE}
-plot_ly(data, y = ~score, color = ~boro, type = 'box')
-```
-
-## Histogram
-```{r echo = FALSE}
-plot_ly(data, x = ~score, color = ~critical_flag, type = 'histogram')
-```
-

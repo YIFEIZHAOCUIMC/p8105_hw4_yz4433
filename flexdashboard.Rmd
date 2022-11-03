@@ -32,3 +32,8 @@ plot_ly(data, y = ~score, color = ~boro, type = 'box')
 ```{r echo = FALSE}
 plot_ly(data, x = ~score, color = ~critical_flag, type = 'histogram')
 ```
+
+## Pieplot
+```{r echo = FALSE}
+plot_ly(data, labels = ~cuisine_description, type = 'pie')
+```
